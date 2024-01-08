@@ -1,9 +1,21 @@
-# Welcome to your Jupyter Book
+# Welcome to the Common Analytical Framework Homepage
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+The Common Analytical Framework (often shortened to CAF) is a collaboration between transport bodies in
+the UK to develop and maintain commonly used transport analytics and appraisal tools.
+
+- Python based tools
+  - Best practice for collab
+    - Testing
+    - Coding standards
+    - Deployment
+  - Current Status
+    - Deployment framework
+  - Looking Ahead
+- Data Sharing
+- Data Dictionary
+  - Zoning systems
+  - Segmentations
+    - Page for each. NTEM etc. w/ a table for each purpose
 
 Check out the content pages bundled with this sample book to see more.
 

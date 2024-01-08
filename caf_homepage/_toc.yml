@@ -3,7 +3,47 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+    - caption: Example pages
+      chapters:
+          - file: markdown
+          - file: notebooks
+          - file: markdown-notebooks
+
+    - caption: Contribution Guidelines
+      chapters:
+      - file: coding_standards_overview
+        sections:
+        - file: linters
+        - file: style guide
+      - file: GitHub best practice
+        sections:
+            - file: branches
+            - file: adding features
+      - file: Writing tests and Pytest
+        sections:
+            - file: Pytest intro
+            - file: testing best practice
+            - file: expected, errors, edge_cases
+      - file: Deployment best-practice
+        sections:
+            - file: writing the deployment notes
+
+    - caption: Tool Status
+      chapters:
+          - file: Deployment framework
+          - file: tool status
+          - file: Looking Ahead
+
+    -   caption: Data dictionary
+        chapters:
+            -   file: Segmentations
+                sections:
+                    -   file: NTEM
+                    -   file: TfN
+            -   file: Zoning systems
+                # Is it too much to make each of these their own section? This might be massive!
+                # Might need to think of a way to group these
+                sections:
+                    - file: MSOA
+                    - file: LSOA
