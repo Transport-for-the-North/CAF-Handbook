@@ -10,40 +10,39 @@ parts:
           - file: notebooks
           - file: markdown-notebooks
 
-    - caption: Contribution Guidelines
-      chapters:
-      - file: coding_standards_overview
-        sections:
-        - file: linters
-        - file: style guide
-      - file: GitHub best practice
-        sections:
-            - file: branches
-            - file: adding features
-      - file: Writing tests and Pytest
-        sections:
-            - file: Pytest intro
-            - file: testing best practice
-            - file: expected, errors, edge_cases
-      - file: Deployment best-practice
-        sections:
-            - file: writing the deployment notes
+    -   caption: Contribution Guidelines
+        chapters:
+            -   file: contribution/coding_standards/overview.md
+                sections:
+                    - file: contribution/coding_standards/principles.md
+                    - file: contribution/coding_standards/documentation.md
+                    - file: contribution/coding_standards/linters.md
+                    - file: contribution/coding_standards/style_guide.md
+                    - file: contribution/coding_standards/version_control.md
+                    - file: contribution/coding_standards/data_management.md
+                    - file: contribution/coding_standards/testing.md
+                    - file: contribution/coding_standards/code_review.md
+            -   file: contribution/github_wow/overview.md
+            -   file: contribution/deployment/overview.md
+#        -   file: Writing tests and Pytest
+#            sections:
+#                - file: Pytest intro
+#                - file: testing best practice
+#                - file: expected, errors, edge_cases
 
-    - caption: Tool Status
-      chapters:
-          - file: Deployment framework
-          - file: tool status
-          - file: Looking Ahead
+    -   caption: CAF Deployment
+        chapters:
+            - file: python_tools/framework.md
+            - file: python_tools/package_status.md
 
     -   caption: Data dictionary
         chapters:
-            -   file: Segmentations
+            -   file: data_dictionary/segmentations/overview.md
                 sections:
-                    -   file: NTEM
-                    -   file: TfN
-            -   file: Zoning systems
-                # Is it too much to make each of these their own section? This might be massive!
-                # Might need to think of a way to group these
+                    -   file: data_dictionary/segmentations/segment_definitions.md
+            -   file: data_dictionary/zoning/overview.md
                 sections:
-                    - file: MSOA
-                    - file: LSOA
+                    -   file: data_dictionary/zoning/zone_definitions.md
+#    -   caption: Dashboards
+#        chapters:
+#            - file: example_dashboard.md
