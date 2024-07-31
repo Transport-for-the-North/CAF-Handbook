@@ -2,7 +2,7 @@
 
 The Common Analytical Framework is built using a Polylithic design, meaning it is made up of numerous small modules that
 all interconnect. This reduces overhead on the development and collaboration side, as there is less code to think about
-in each module. A downside of this approach is the lack of clairty of what else is available and how developed it is. 
+in each module. A downside of this approach is the lack of clarity of what else is available and how developed it is. 
 This page aims to clarify that with the below table. 
 
 For explanations on each of the terms being used in the table, please see below or the contents to the right.
