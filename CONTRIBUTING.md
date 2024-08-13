@@ -25,8 +25,8 @@ and "help wanted" is open to whoever wants to implement it.
 
 ## Write Documentation
 
-Common Analytical Framework Homepage could always use more documentation, whether as part of the
-official Common Analytical Framework Homepage docs, in docstrings, or even on the web in blog posts,
+Common Analytical Framework Handbook could always use more documentation, whether as part of the
+official Common Analytical Framework docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 ## Submit Feedback
@@ -42,7 +42,7 @@ If you are proposing a feature:
 
 ## Get Started
 
-Ready to contribute? Here's how to set up `Common Analytical Framework Homepage` for local development.
+Ready to contribute? Here's how to set up `CAF Handbook` for local development.
 
 1. Fork the repo on GitHub.
 2. Clone your fork locally.
@@ -53,4 +53,4 @@ Ready to contribute? Here's how to set up `Common Analytical Framework Homepage`
 
 ## Code of Conduct
 
-Please note that the Common Analytical Framework Homepage project is released with a [Contributor Code of Conduct](CONDUCT.md). By contributing to this project you agree to abide by its terms.
+Please note that the CAF Handbook project is released with a [Contributor Code of Conduct](CONDUCT.md). By contributing to this project you agree to abide by its terms.
