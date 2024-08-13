@@ -1,4 +1,4 @@
-# Welcome to the Common Analytical Framework Homepage
+# Welcome to the Common Analytical Framework Handbook
 
 The Common Analytical Framework (often shortened to CAF) is a collaboration between transport bodies in
 the UK to develop and maintain commonly used transport analytics and appraisal tools.
