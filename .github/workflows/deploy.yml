@@ -38,7 +38,7 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build caf_homepage
+          jupyter-book build caf-handbook
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
