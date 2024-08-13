@@ -230,4 +230,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # Jupyter-book build
-caf_homepage/_build/
+caf-handbook/_build/
