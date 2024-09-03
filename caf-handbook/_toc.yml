@@ -4,11 +4,10 @@
 format: jb-book
 root: intro
 parts:
-    - caption: Example pages
-      chapters:
-          - file: markdown
-          - file: notebooks
-          - file: markdown-notebooks
+    -   caption: CAF Deployment
+        chapters:
+            -   file: python_tools/framework.md
+            -   file: python_tools/package_status.md
 
     -   caption: Contribution Guidelines
         chapters:
@@ -24,16 +23,10 @@ parts:
                     - file: contribution/coding_standards/code_review.md
             -   file: contribution/github_wow/overview.md
             -   file: contribution/deployment/overview.md
-#        -   file: Writing tests and Pytest
-#            sections:
-#                - file: Pytest intro
-#                - file: testing best practice
-#                - file: expected, errors, edge_cases
-
-    -   caption: CAF Deployment
-        chapters:
-            - file: python_tools/framework.md
-            - file: python_tools/package_status.md
+            -   file: contribution/pytest/overview.md
+                sections:
+                    - file: contribution/pytest/testing_best_practice.md
+                    - file: contribution/pytest/pytest.md
 
     -   caption: Data dictionary
         chapters:
@@ -43,6 +36,13 @@ parts:
             -   file: data_dictionary/zoning/overview.md
                 sections:
                     -   file: data_dictionary/zoning/zone_definitions.md
+
+    -   caption: Example pages
+        chapters:
+            -   file: markdown
+            -   file: notebooks
+            -   file: markdown-notebooks
+
 #    -   caption: Dashboards
 #        chapters:
 #            - file: example_dashboard.md

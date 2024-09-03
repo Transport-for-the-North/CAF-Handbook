@@ -36,3 +36,5 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: true
+
+  announcement: "This book is currently under development, therefore some pages may be a little sparse for the time being."
