@@ -6,8 +6,26 @@ root: intro
 parts:
     -   caption: CAF Deployment
         chapters:
-            -   file: python_tools/framework.md
-            -   file: python_tools/package_status.md
+            - file: python_tools/framework.md
+            - file: python_tools/packages/status.md
+              sections:
+                - file: python_tools/packages/descriptions.md
+                - file: python_tools/packages/models.md
+            - file: python_tools/installation/overview.md
+              sections:
+                - file: python_tools/installation/package_installation.md
+                - file: python_tools/installation/environments.md
+                - file: python_tools/installation/faqs.md
+
+    -   caption: Data dictionary
+        chapters:
+            -   file: data_dictionary/segmentations/overview.md
+                sections:
+                    -   file: data_dictionary/segmentations/segment_definitions.md
+            -   file: data_dictionary/zoning/overview.md
+                sections:
+                    -   file: data_dictionary/zoning/zone_definitions.md
+            -   file: data_dictionary/glossary.md
 
     -   caption: Contribution Guidelines
         chapters:
@@ -27,21 +45,6 @@ parts:
                 sections:
                     - file: contribution/pytest/testing_best_practice.md
                     - file: contribution/pytest/pytest.md
-
-    -   caption: Data dictionary
-        chapters:
-            -   file: data_dictionary/segmentations/overview.md
-                sections:
-                    -   file: data_dictionary/segmentations/segment_definitions.md
-            -   file: data_dictionary/zoning/overview.md
-                sections:
-                    -   file: data_dictionary/zoning/zone_definitions.md
-
-    -   caption: Example pages
-        chapters:
-            -   file: markdown
-            -   file: notebooks
-            -   file: markdown-notebooks
 
 #    -   caption: Dashboards
 #        chapters:

@@ -40,6 +40,19 @@ The below table summarises the different stages of CAF release within the framew
 # Classification and Progression
 The below table details how the above stages are broken down into features for each type of release.
 
+<style>
+span.yes_cell {
+  color: green;
+  font-weight: bold;
+}
+span.maybe_cell {
+  color: orange;
+  font-weight: bold;
+}
+span.no_cell {
+  color: grey;
+}
+</style>
 
 ```{list-table}
 :header-rows: 1
@@ -52,107 +65,111 @@ The below table details how the above stages are broken down into features for e
   - CAF Release
   
 * - Defined `requirements.txt`
-  - Y
-  - Y
-  - Y
-  - Y
-  - Y
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Functional Main
-  - M
-  - Y
-  - Y
-  - Y
-  - Y
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Stable API
-  - M
-  - M
-  - Y
-  - Y
-  - Y
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Software Versioning
-  - N
-  - M
-  - Y
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - User Guide
-  - N
-  - M
-  - Y
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - In-Code Documentation
-  - N
-  - M
-  - M
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Follows Coding Standards
-  - N
-  - M
-  - N
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Technical Documentation
-  - N
-  - M
-  - M
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Integration Tests
-  - N
-  - M
-  - M
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Run and Log Files
-  - N
-  - N
-  - M
-  - Y
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
+  - <span class="yes_cell">Y</span>
   
 * - Unit Tests
-  - N
-  - N
-  - M
-  - M
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
   
 * - Expert Reviewed
-  - N
-  - N
-  - N
-  - M
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
   
 * - Integration into other CAF tools
-  - N
-  - N
-  - N
-  - M
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
   
 * - Deployed on PyPI / Conda-forge
-  - N
-  - N
-  - N
-  - M
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
   
 * - Published Code documentation
-  - N
-  - N
-  - N
-  - M
-  - Y
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="no_cell">N</span>
+  - <span class="maybe_cell">M</span>
+  - <span class="yes_cell">Y</span>
 ```
+
+<span class="yes_cell">Y</span>es,
+<span class="maybe_cell">M</span>aybe,
+<span class="no_cell">N</span>o

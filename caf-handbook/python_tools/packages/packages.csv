@@ -1,0 +1,10 @@
+Tool Name,CAF Status,Interface
+caf.space,CAF Release,"Python API, GUI"
+caf.toolkit,CAF Release,"Python API, CLI"
+caf.carbon,Beta,Python API
+caf.distribute,Beta,Python API
+caf.viz,Beta,Python API
+caf.base,Alpha,Python API
+caf.mat,Alpha,Python API
+caf.ml,Alpha,Python API
+caf.tem,Pre-Alpha,Python API

@@ -1,14 +1,12 @@
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
-# See the documentation for help and more options: 
+# See the documentation for help and more options:
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
 # Book settings
-title                       : Common Analytical Framework Handbook  # The title of the book. Will be placed in the left navbar.
-author                      : Transport for the North  # The author of the book
-copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : logo.png  # A path to the book logo
+title: CAF Handbook # The title of the book. Will be placed in the left navbar.
+author: Transport for the North # The author of the book
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -26,9 +24,9 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/Transport-for-the-North/caf-handbook  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+  url: https://github.com/Transport-for-the-North/caf-handbook # Online location of your book
+  path_to_book: caf-handbook # Optional path to your book, relative to the repository root
+  branch: main # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
@@ -36,5 +34,19 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: true
+  extra_footer: >
+    <p>
+      All content is available under the
+      <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>,
+      except where otherwise stated.
+    </p>
+
+    <p>
+      E-mail: <a href="mailto:TfNOffer@transportforthenorth.com">TfNOffer@transportforthenorth.com</a>
+    </p>
 
   announcement: "This book is currently under development, therefore some pages may be a little sparse for the time being."
+
+sphinx:
+  config:
+    html_show_copyright: false
